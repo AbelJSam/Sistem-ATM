@@ -58,8 +58,8 @@ void main() {
 
     // ATM pada atm.exe kembali ke menu setelah transaksi.
     // Tekan ENTER agar hasil transaksi dapat dibaca terlebih dahulu.
-    stdout.write('\nTekan ENTER untuk kembali ke menu...');
-    stdin.readLineSync();
+    // stdout.write('\nTekan ENTER untuk kembali ke menu...');
+    // stdin.readLineSync();
   }
 }
 
@@ -73,7 +73,7 @@ void tampilMenu() {
   print('1. Cek Saldo');
   print('2. Setor Tunai');
   print('3. Tarik Tunai');
-  print('3. Exit');
+  print('4. Exit');
   print('====================================');
 }
 
